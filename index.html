@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>barbaDev</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./IMG/bb16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="./IMG/bb32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./IMG/bb48.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="./IMG/bb64.png" sizes="64x64" type="image/png">
+</head>
+
+<body>
+
+  <header class="menu">
+    <div class="container" id="logo">
+      <div id="changeColorDiv" class="box"></div>
+      <h1 class="logo-menu">barbaDev</h1>
+    </div>
+
+    <div class="container-menu">
+      <nav class="nav-menu">
+          <ul>
+              <li class="number-menu1">01</li>
+              <li><a href="#home">Home</a></li>
+              <li class="number-menu2">02</li>
+              <li><a href="#expertise">Expertise</a></li>
+              <li class="number-menu3">03</li>
+              <li><a href="#work">Work</a></li>
+              <li class="number-menu4">04</li>
+              <li><a href="#about">About Me</a></li>
+              <li class="number-menu5">05</li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+    <div onclick="animarMenu()" class="btn-container" id="btn-menu">
+      <div class="linha"></div>
+      <div class="linha"></div>
+      <div class="linha"></div>
+    </div>
+    <div class="menu-mobile" id="menu-mobile">
+      <nav class="nav-mobile">
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#expertise">Expertise</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+</header>
+  <main>
+    <section class="parte1" id="home">
+      <div class="overlay"></div>
+      <div class="container_center">
+        <div>
+          <h1>BARBA DEV</h1><br>
+        </div>
+        <div>
+          <h5>SOFTWARE ENGINNER, FRONT AND & APP DEVELOPER</h5>
+        </div>
+        <div class="sun_container">
+          <div class="sun"></div>
+        </div>
+      </div>
+    </section>
+  
+  <section class="parte2" id="expertise">
+    <div class="container2">
+        <div>
+          <h1 class="expertise">Expertise</h1>
+        </div>
+          <div class="container-exper">
+              <div class="experquad"><!--1-->
+                <div class="ex-top">
+                  <img class="desenhos-ex" src="./IMG/monitor.png" alt="">
+                  <h2 class="mon">Web Page Development</h2>
+                  <div class="bloc-color"></div>
+                </div>
+                <div class="ex-bottom">
+                  <div class="h3png"><img src="./IMG/imageh3.png" alt=""></div>
+                  <h3 class="text1">
+                    Criação e personlização de páginas web. Layouts atrativos e funcionais.</h3>
+                </div>
+              </div><!--1-->
+              <div class="experquad"><!--2-->
+                <div class="ex-top2">
+                  <img class="desenhos-ex" src="./IMG/ciencia.png" alt="">
+                  <h2 class="mon1">Front-end Dev</h2>
+                  <div class="bloc-color2"></div>
+                </div>
+                <div class="ex-bottom">
+                  <div class="h3png"><img src="./IMG/imageh3.png" alt=""></div>
+                  <h3 class="text1">Expertise sólida em desenvolvimento utilizando HTML, CSS e JavaScript.</h3>
+                </div>
+              </div><!--2-->
+              <div class="experquad"><!--3-->
+                <div class="ex-top3">
+                  <img class="desenhos-ex" src="./IMG/simeno.png" alt="">
+                  <h2 class="mon1">Image Editing</h2>
+                  <div class="bloc-color3"></div>
+                </div>
+                <div class="ex-bottom">
+                  <div class="h3png"><img src="./IMG/imageh3.png" alt=""></div>
+                  <h3 class="text1">Habilidade no Photoshop para criar e editar imagens exclusivas para páginas.</h3>
+                </div>
+              </div><!--3-->
+          </div>
+        <div class="codigos-fundo">
+            <img class="imgcod" src="https://tamalsen.dev/wp-content/uploads/2021/12/hello-world-html-code-768x384.png"  alt="">
+        </div>
+      </div>
+  </section>
+  <section class="parte3" id="work">
+    <div class="container3">
+        <div>
+          <h1 class="expertise3">work</h1>
+        </div>
+          <div class="container-exper3">
+              <div class="experquad2"><!--1-->
+                <h3>EM BREVE</h3>
+              </div><!--1-->
+              <div class="experquad2"><!--2-->
+                <h3>EM BREVE</h3>
+              </div><!--2-->
+              <div class="experquad2"><!--3-->
+                <h3>EM BREVE</h3>
+              </div>
+          </div>
+  </section>
+  <!-- SECTION 4-->
+  <section class="parte4" id="about">
+    <div class="container-about">
+      <div class="left-about">
+        <h1>About</h1>
+        <div class="retangulo">
+          <div class=""><img class="htmll" src="./IMG/html-5.png" alt=""></div>
+          <div class=""><img class="csss" src="./IMG/css-3.png" alt=""></div>
+          <div class=""><img class="jss" src="./IMG/script-java.png" alt=""></div>
+        </div>
+      </div>
+      <div class="rigth-about"></div>
+    </div>
+  </section>
+
+  <button class="btntop" id="btnTop" onclick="goTop()">
+    <img src="./IMG/foguete.png" alt="Foguete">
+    <div class="flame"><img src="./IMG/fogo.png" alt=""></div>
+  </button>
+
+  <footer class="foot" id="contact">
+    <div class="top_foot">
+      <a href="https://github.com/0Henrique" target="_blank"><img class="git" src="./IMG/gith.png"></a>
+      <div class="trace"></div>
+      <a href="https://www.instagram.com/henrique_pr_/" target="_blank"><img class="inst" src="./IMG/insta.png"></a>
+      <div class="trace"></div>
+      <a href="https://www.linkedin.com/in/carlos-henrique96/" target="_blank"><img class="linkedi" src="./IMG/linked.png"></a>
+      <div class="trace"></div>
+      <a href="https://wa.me/031995401674" target="_blank"><img class="whtts" src="./IMG/whats.png"></a>
+      <div class="trace"></div>
+      <a href="mailto:carlos-henrique96@live.com"><img class="gmail" src="./IMG/o-email.png" alt=""></a>
+
+    </div>
+    <div class="boot_foot">
+      <p>Desenvolvido por Carlos Henrique </p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
