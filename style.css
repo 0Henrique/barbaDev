@@ -708,10 +708,6 @@ html{
 }
 
 
-
-
-
-
 /*  1ª Media  */
 @media only screen and (max-width: 600px) {
     .container_center > div:first-of-type h1 {
@@ -968,3 +964,18 @@ html{
     }
 }
  
+
+/*TESTE */
+@media only screen and (max-width: 1600px) {
+    .text-content .description{
+        margin: 5rem 1.5rem 0 1.5rem;
+        text-align: justify;
+        position: relative;
+        font-size: 1.05rem;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+        color: rgb(83, 83, 83);
+        font-family: "Didact Gothic", sans-serif;
+        font-weight: 500;
+    }
+}
