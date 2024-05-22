@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Italiana&display=swap');
 
 
 * {
@@ -398,7 +400,10 @@
     left: 2.1rem;
     color: #cecece;
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto mono", sans-serif;
+    font-weight: lighter;
+    text-shadow: 3px 3px 0 #000508;
+    letter-spacing: 1px;
 }
 .codigos-fundo{
     display: flex;
@@ -552,23 +557,31 @@
     position: relative;
 }
 .text-content .name{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+    text-shadow: 2px 0px 0 #000508;
+    font-size: 3.5rem;
+    margin-bottom: 0.4rem;
+    font-family: "italiana", sans-serif;
+    font-weight: 200;
+    text-align: center;
 }
 .text-content .role{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: 500;
     margin-bottom: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
 }
 .text-content .description{
-    margin: 4rem 1.5rem 0 1.5rem;
+    margin: 7rem 1.5rem 0 1.5rem;
     text-align: justify;
     position: relative;
     font-size: 1.05rem;
-    line-height: 1.6;
-    letter-spacing: 1px;
-    color: rgb(92, 92, 92);
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+    color: rgb(83, 83, 83);
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 500;
 }
 
 .curriculo-button{
@@ -588,13 +601,15 @@
 }
 
 .curriculo-button:hover{
-    transform: translateX(5%);
+    transform: translateX(8%);
 }
 
 .curriculo-button p {
     display: inline-block;
     color: white;
     font-size: 0.9rem;
+    font-family: "Didact Gothic", sans-serif;
+    letter-spacing: 1px;
 }
 .photo-container{
     width: 40%;
@@ -609,89 +624,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-.left-about{
-    width: 45%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.myphoto{
-    border-radius: 2%;
-    margin: 0 auto;
-    width: 17rem;
-    height: 24rem;
-    background-image: url(./IMG/myphoto.jpg);
-    background-size: 23rem;
-    background-position-x: -3rem;
-    background-position-y: -2rem;
-    opacity: 85%;
-}
-.rigth-about{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 2rem 0 5px;
-    width: 55%;
-    height: 100%;
-}
-.rigth-about p:nth-of-type(1) {
-    left: -3rem;
-    position: relative;
-    top: -1.5rem;
-    padding: 20px;
-    color: #ffffff;
-    text-shadow: 3px 3px 0 #000508;
-    font-family: "Roboto mono", sans-serif;
-    font-size: 3.5rem;
-}
-
-.rigth-about p:nth-of-type(2) {
-    font-size: 1.4rem;
-    padding: 0 2rem 0 0;
-    color: #e0e0e0;
-    text-shadow: 3px 3px 0 #000508;
-    font-family: "Raleway", sans-serif;
-    line-height: 1.7rem;
-        letter-spacing: 0.3rem;
-}
-.rigth-about p:nth-of-type(3) {
-    color: #cecece;
-    font-size: 1.5rem;
-    color: #f5f5f5;
-    text-shadow: 3px 3px 0 #000508;
-
-}
-.curr{
-    margin-top: 1rem;
-    position: relative;
-    display: inline-block;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.curr img{
-    width: 4rem;
-}
-.curriculo{
-    position: relative;
-    font-size: 1rem;
-    color: #09682f;
-    right: -0.5rem;
-}
-*/
 /*BOTÃO SUBIR*/
 .btntop{/*container do foguete*/
     position: fixed;
@@ -731,7 +663,7 @@
 }
 .top_foot img{
     padding: 18px;
-    width: 5rem;
+    width: 4.6rem;
     height: auto;
     cursor: pointer;
 }
@@ -755,7 +687,7 @@
 }
 .trace{
     width: 1.2px;
-    height: 3.2rem;
+    height: 1.7rem;
     background-color: white;
     transform: rotate(24deg);
 }
@@ -769,7 +701,7 @@
     position: relative;
     margin: 0 auto;
     color: #cecece;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 html{
     scroll-behavior: smooth;
