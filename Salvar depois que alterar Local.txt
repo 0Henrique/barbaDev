@@ -1,6 +1,11 @@
+Atualizar o repositório Remoto após ter feito modificações
+
+
 git add .
 
 git commit -m “descrição”
 
 git push
+
+
 
