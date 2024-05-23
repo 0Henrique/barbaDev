@@ -9,3 +9,7 @@ git push
 
 
 
+
+Puxar do remoto
+
+git pull 

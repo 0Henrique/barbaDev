@@ -423,7 +423,7 @@
 /*  3ª PARTE  */
 
 .parte3 {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color: #1a191d;
 }
@@ -788,60 +788,155 @@ html{
         background-position: center;
         background-size: cover;
     }
+
+    /*Seção4*/
     .parte4{
-        height: 85rem;
+        height: 300vh;
     }
+
+
+
+    /*
+    .parte4{
+    height: 100vh;
+    width: 100%;
+    background-color: #1a191d;
+    display: flex;
+    align-items: center;
+}
+    
     .container-about{
-        justify-content: center;
-        padding: 0;
-        top: 5rem;
-        width: 90%;
-        display: flex;
-        height: 80%;
-    }
-    .left-about{
-        top: 8rem;
-        position: relative;
-        margin: 0 auto;
-        display: flex;
-        width: 100%;
-        height: 20rem;
-    }
-    .myphoto{
-        margin: 0 auto;
-        position: relative;
-        top: -1rem;
-        width: 20rem;
-        height: 17rem;
-        background-position-x: -2rem;
-    }
-    .rigth-about{
-        margin: 0 auto;
-        position: absolute;
-        top: 20rem;
-        padding: 5px;
-        width: 95%;
-        height: auto;
-        text-align: justify;
-        text-justify: inter-word;
-        text-align-last: left;
-        hyphens: auto;
-    }
-    .rigth-about p:nth-of-type(1) {
-        margin: 0 auto;
-        left: -9px;
-        top: -20rem;
-        font-size: 3rem;
-        padding: none;
-    }
-    .rigth-about p:nth-of-type(2) {
-        padding: 5px;
-        margin: 0 auto;
-        font-family: "Raleway", sans-serif;
-        font-size: 0.9rem;
-        line-height: 1.7rem;
-        letter-spacing: 0.3rem;
-    }
+    position: relative;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+}
+.left-about{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 90%;
+}
+.retangulo{
+    position: absolute;
+    width: 25vw;
+    height: 90px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 60%;
+    left: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #e6e6e6 1.2px solid;
+    border-left: none;
+}
+.left-about h1{
+    margin-top: 4rem;
+    font-size: 5rem;
+    color: #f5f5f5;
+    text-shadow: 3px 3px 0 #000508;
+    font-family: "Roboto mono", sans-serif;
+}
+.htmll, .csss, .jss{
+    margin-right: 30px;
+    position: relative;
+    width: 3.3rem;
+}
+.rigth-about{
+    display: flex;
+    flex-direction: row;
+    width: calc(70% - 100px);
+    margin-right: 100px;
+    height: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.text-content{
+    width: 60%;
+    padding-right: 20px;
+    position: relative;
+}
+.text-content .name{
+    text-shadow: 2px 0px 0 #000508;
+    font-size: 3.5rem;
+    margin-bottom: 0.4rem;
+    font-family: "italiana", sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.text-content .role{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.text-content .description{
+    margin: 7rem 1.5rem 0 1.5rem;
+    text-align: justify;
+    position: relative;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+    color: rgb(83, 83, 83);
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 500;
+}
+
+.curriculo-button{
+    position: absolute;
+    margin-left: 1.5rem;
+    bottom: 0;
+    width: 8.125rem;
+    height: 2.8125rem;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    transition: 500ms ease;
+}
+
+.curriculo-button:hover{
+    transform: translateX(8%);
+}
+
+.curriculo-button p {
+    display: inline-block;
+    color: white;
+    font-size: 0.9rem;
+    font-family: "Didact Gothic", sans-serif;
+    letter-spacing: 1px;
+}
+.photo-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-photo{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+
+
+
+
+
+
+
+
+
+
     .btntop{
         right: 0.4rem;
         bottom: 5.2rem;
@@ -958,10 +1053,6 @@ html{
     .container3{
         top: 12rem;
     }
-    .container-about{
-        top: 60rem;
-        justify-content: center;
-    }
 }
  
 
@@ -986,7 +1077,7 @@ html{
         height: 6.8vh;
     }
     .htmll, .csss, .jss{
-        width: 3vw;
+        width: 2.6vw;
         margin-top: 3px;
     }
 }
@@ -1001,11 +1092,11 @@ html{
         font-size: 4vw;
     }
     .retangulo{
-        width: 17vw;
-        height: 3.8rem;
+        width: 19vw;
+        height: 3.5rem;
     }
     .htmll, .csss, .jss{
-        width: 3vw;
+        width: 2.6vw;
         margin-right: 18px;
         margin-top: 3px;
     }
@@ -1020,6 +1111,178 @@ html{
         font-size: 0.9rem;
     }
 }
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 1184px) {
+    .retangulo{
+        width: 17vw;
+        height: 2.7rem;
+    }
+    .htmll, .csss, .jss{
+        width: 2.2vw;
+        margin-right: 18px;
+        margin-top: 3px;
+    }
+    .text-content .description{
+        margin: 5rem 1.2rem 0 1.2rem;
+        font-size: 0.8rem;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+    }
+    .text-content .name{
+        text-shadow: 2px 0px 0 #000508;
+        font-size: 2.8rem;
+        margin-bottom: 0.4rem;
+        font-family: "italiana", sans-serif;
+        font-weight: 200;
+        text-align: center;
+    }
+    .text-content .role{
+        font-size: 0.8rem;
+    }
 }
+@media only screen and (max-width: 925px) {
+    .text-content .description{
+        margin: 5.5rem 1rem 0 1rem;
+        font-size: 0.8rem;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+    }
+    .rigth-about{
+        display: flex;
+        flex-direction: row;
+        width: calc(85% - 15px);
+        margin-right: 15px;
+    }
+    .htmll, .csss, .jss{
+        width: 2.7vw;
+        margin-right: 18px;
+        margin-top: 3px;
+    }
+    .photo-container{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-photo{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .text-content{
+        padding: 4px;
+    }
+}
+@media only screen and (max-width: 899px) {
+    .text-content .description{
+        margin: 6.6rem 1rem 0 1rem;
+        font-size: 0.812rem;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+    }
+    .photo-container{
+        width: 50%;
+    }
+    .profile-photo{
+        top: 1.5rem;
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .rigth-about{
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+        width: 100%;
+    }
+    .text-content .name{
+        font-size: 2.5rem;
+    }
+    .left-about h1{
+        margin-top: 0rem;
+    }
+    .retangulo{
+        width: 22vw;
+        height: 2.8rem;
+    }
+    .htmll, .csss, .jss{
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+    .left-about h1{
+        font-size: 2.4rem;
+    }
+    .curriculo-button{
+        position: absolute;
+        margin-left: 1.5rem;
+        bottom: 0;
+        width: 6.5rem;
+        height: 2.3rem;
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .text-content .description{
+        margin: 5rem 1rem 0 1rem;
+        font-size: 0.742rem;
+        line-height: 1.6;
+        letter-spacing: 1.2px;
+    }
+    .left-about h1{
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+    .rigth-about{
+        height: 80%;
+        width: 100%;
+    }
+    .curriculo-button{
+        width: 6.2rem;
+        height: 2.2rem;
+    }
+    .text-content .name{
+        font-size: 2rem;
+    }
+}
+
+/*
+    .photo-container{
+        width: 50%;
+    }
+    .profile-photo{
+        top: 1.5rem;
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .rigth-about{
+        display: flex;
+        flex-direction: row;
+        height: 65%;
+        width: 100%;
+    }
+    .text-content .name{
+        font-size: 2.4rem;
+    }
+    .retangulo{
+        width: 22vw;
+        height: 2.8rem;
+    }
+    .htmll, .csss, .jss{
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+    .left-about h1{
+        font-size: 2.4rem;
+    }
+    .curriculo-button{
+        position: absolute;
+        margin-left: 1.5rem;
+        bottom: 0;
+        width: 6.5rem;
+        height: 2.3rem;
+
+    }
+}*/
