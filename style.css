@@ -423,7 +423,7 @@
 /*  3ª PARTE  */
 
 .parte3 {
-    height: 150vh;
+    height: 100vh;
     width: 100%;
     background-color: #1a191d;
 }
@@ -496,7 +496,7 @@
 
 /*   4ª PARTE   */
 .parte4{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-color: #1a191d;
     display: flex;
@@ -708,275 +708,6 @@ html{
 }
 
 
-/*  1ª Media  */
-@media only screen and (max-width: 600px) {
-    .container_center > div:first-of-type h1 {
-        font-size: 13vw
-    }
-    .container_center div:nth-of-type(2) h5 {
-    font-size: 3.4vw;
-    text-align: center;
-    }
-    .btn-container {
-        right: 3rem;
-        width: 36px;
-        height: 34px;
-        border: none;
-        z-index: 1001;
-      }
-    .parte2{
-        height: 81rem;
-    }
-    .container2 h1{
-        font-size: 16vw;
-    }
-    .experquad {
-        width: 73vw;
-        height: 18rem;
-    }
-    .mon{
-        left: 5.7rem;
-        font-size: 1.5rem;
-    }
-    .bloc-color{right: -5.8rem;
-        width: 9.5rem;
-    }
-    .bloc-color2{
-        right: -5.1rem;
-        width: 10.3rem;
-        top: 0.3rem;
-    }
-    .h3png{
-        top: -10px;
-    }
-    .mon1{
-        left: 5.2rem;
-        font-size: 1.5rem;
-    }
-    .bloc-color3{
-        right: -5.2rem;
-        width: 10rem;
-        top: 0.5rem;
-    }
-    .text1{
-        font-size: 0.9rem;
-        top: -9.5rem;
-        letter-spacing: 0.1rem;
-    }
-    .codigos-fundo{
-        z-index: 1;
-        top: 2.5rem;
-    }
-    .codigos-fundo img{
-        width: 100%;
-    }
-    .parte3{
-        position: relative;
-        height: 96rem;
-        width: 100%;
-    }
-    .container3{
-        width: 100%;
-        top: 0rem;
-    }
-    .experquad2{
-        width: 77vw;
-        height: 25rem;
-    }
-    .container-exper3 div:nth-of-type(1) {
-        background-size: 18rem;
-        background-position: center;
-        background-size: cover;
-    }
-
-    /*Seção4*/
-    .parte4{
-        height: 300vh;
-    }
-
-
-
-    /*
-    .parte4{
-    height: 100vh;
-    width: 100%;
-    background-color: #1a191d;
-    display: flex;
-    align-items: center;
-}
-    
-    .container-about{
-    position: relative;
-    display: flex;
-    height: 80vh;
-    width: 100%;
-    align-items: center;
-}
-.left-about{
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: 90%;
-}
-.retangulo{
-    position: absolute;
-    width: 25vw;
-    height: 90px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    top: 60%;
-    left: 0rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #e6e6e6 1.2px solid;
-    border-left: none;
-}
-.left-about h1{
-    margin-top: 4rem;
-    font-size: 5rem;
-    color: #f5f5f5;
-    text-shadow: 3px 3px 0 #000508;
-    font-family: "Roboto mono", sans-serif;
-}
-.htmll, .csss, .jss{
-    margin-right: 30px;
-    position: relative;
-    width: 3.3rem;
-}
-.rigth-about{
-    display: flex;
-    flex-direction: row;
-    width: calc(70% - 100px);
-    margin-right: 100px;
-    height: 90%;
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.text-content{
-    width: 60%;
-    padding-right: 20px;
-    position: relative;
-}
-.text-content .name{
-    text-shadow: 2px 0px 0 #000508;
-    font-size: 3.5rem;
-    margin-bottom: 0.4rem;
-    font-family: "italiana", sans-serif;
-    font-weight: 200;
-    text-align: center;
-}
-.text-content .role{
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    text-align: center;
-}
-.text-content .description{
-    margin: 7rem 1.5rem 0 1.5rem;
-    text-align: justify;
-    position: relative;
-    font-size: 1.05rem;
-    line-height: 1.8;
-    letter-spacing: 1.2px;
-    color: rgb(83, 83, 83);
-    font-family: "Didact Gothic", sans-serif;
-    font-weight: 500;
-}
-
-.curriculo-button{
-    position: absolute;
-    margin-left: 1.5rem;
-    bottom: 0;
-    width: 8.125rem;
-    height: 2.8125rem;
-    background-color: black;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-
-    transition: 500ms ease;
-}
-
-.curriculo-button:hover{
-    transform: translateX(8%);
-}
-
-.curriculo-button p {
-    display: inline-block;
-    color: white;
-    font-size: 0.9rem;
-    font-family: "Didact Gothic", sans-serif;
-    letter-spacing: 1px;
-}
-.photo-container{
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.profile-photo{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
-
-
-
-
-
-
-
-
-
-
-
-    .btntop{
-        right: 0.4rem;
-        bottom: 5.2rem;
-    }
-    .top_foot img{
-        padding: 10px;
-        width: 3.9rem;
-    }
-    .trace{
-        height: 2.1rem;
-    }
-    .btntop img{
-        width: 35px;
-    }.curr{
-        display: inline-block;
-        top: 0.8rem;
-        position: relative;
-        right: 50%;
-        left: 44%;
-        width: 5rem;
-    }
-    .curr img{
-        position: relative;
-        width: 2.5rem;
-        margin: 0 auto;
-    }
-    .curriculo{
-        right: 2px;
-    }
-    .flame{
-    display: none;
-    z-index: 2000;
-    position: absolute;
-    bottom: -2.5rem;
-    left: 5.7px;
-    }
-    .flame img{
-    width: 1.5rem;
-    }
-}
 
 @media screen and (max-width: 900px){
     .container-menu{
@@ -989,6 +720,7 @@ html{
         visibility: visible;
         height: calc(100vh);
     }
+
     .experquad{
         z-index: 0;
     }
@@ -1175,8 +907,8 @@ html{
 }
 @media only screen and (max-width: 899px) {
     .text-content .description{
-        margin: 6.6rem 1rem 0 1rem;
-        font-size: 0.812rem;
+        margin: 7.4rem 1rem 0 1rem;
+        font-size: 0.88rem;
         line-height: 1.8;
         letter-spacing: 1.2px;
     }
@@ -1222,15 +954,28 @@ html{
 
     }
 }
+@media only screen and (max-width: 800px) {
+    .text-content .description{
+        margin: 8.5rem 1rem 0 1rem;
+        font-size: 0.82rem;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+    }
+
+    .profile-photo{
+        top: -1rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .text-content .description{
-        margin: 5rem 1rem 0 1rem;
-        font-size: 0.742rem;
+        margin: 3rem 1rem 0 1rem;
+        font-size: 0.83rem;
         line-height: 1.6;
         letter-spacing: 1.2px;
     }
     .left-about h1{
-        margin-top: 2rem;
+        margin-top: 0rem;
         font-size: 2.5rem;
     }
     .rigth-about{
@@ -1246,43 +991,188 @@ html{
     }
 }
 
-/*
+/*  1ª Media  */
+@media only screen and (max-width: 600px) {
+    .container_center > div:first-of-type h1 {
+        font-size: 13vw
+    }
+    .container_center div:nth-of-type(2) h5 {
+    font-size: 3.4vw;
+    text-align: center;
+    }
+    .btn-container {
+        right: 3rem;
+        width: 36px;
+        height: 34px;
+        border: none;
+        z-index: 1001;
+      }
+    .parte2{
+        height: 81rem;
+    }
+    .container2 h1{
+        font-size: 16vw;
+    }
+    .experquad {
+        width: 73vw;
+        height: 18rem;
+    }
+    .mon{
+        left: 5.7rem;
+        font-size: 1.5rem;
+    }
+    .bloc-color{right: -5.8rem;
+        width: 9.5rem;
+    }
+    .bloc-color2{
+        right: -5.1rem;
+        width: 10.3rem;
+        top: 0.3rem;
+    }
+    .h3png{
+        top: -10px;
+    }
+    .mon1{
+        left: 5.2rem;
+        font-size: 1.5rem;
+    }
+    .bloc-color3{
+        right: -5.2rem;
+        width: 10rem;
+        top: 0.5rem;
+    }
+    .text1{
+        font-size: 0.9rem;
+        top: -9.5rem;
+        letter-spacing: 0.1rem;
+    }
+    .codigos-fundo{
+        z-index: 1;
+        top: 2.5rem;
+    }
+    .codigos-fundo img{
+        width: 100%;
+    }
+    .parte3{
+        position: relative;
+        height: 96rem;
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+        top: 0rem;
+    }
+    .experquad2{
+        width: 77vw;
+        height: 25rem;
+    }
+    .container-exper3 div:nth-of-type(1) {
+        background-size: 18rem;
+        background-position: center;
+        background-size: cover;
+    }
+    /* MEDIA Seção4*/
+    .parte4 {
+        height: auto; /* Alteração para altura automática */
+        padding-bottom: 100%; /* Adiciona algum espaço extra na parte inferior */
+    }
+    .container-about{
+        display: inline-block;
+    }
+    .left-about{
+        width: 100%;
+        height: 9rem;
+        display: flex;
+        justify-content: center;
+    }
+    .left-about h1{
+        font-size: 16vw;
+    }
+    .retangulo{
+        display: none;
+    }
+    .rigth-about{
+        width: 100%;
+        margin-right: "";
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        height: auto;
+    }
+    .text-content .name{
+        position: relative;
+    }
+    .text-content{
+        width: 100%;height: auto;
+        padding: 5px;
+        position: relative;
+        top: 0rem;
+    }
+    .text-content .description{
+        margin: 22rem 0.3rem 0 0.3rem;
+        font-size: 1rem;
+        line-height: 1.4;
+        letter-spacing: 1.2px;
+    }
+    .curriculo-button{
+        position: relative;
+        margin: 0 auto;
+        bottom: -3rem;
+        text-decoration: none;
+    }
     .photo-container{
+        top: 17rem;
+        position: absolute;
         width: 50%;
     }
     .profile-photo{
-        top: 1.5rem;
-        position: relative;
         width: 100%;
         height: auto;
         border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    .rigth-about{
-        display: flex;
-        flex-direction: row;
-        height: 65%;
-        width: 100%;
+    .btntop{
+        right: 0.4rem;
+        bottom: 5.2rem;
     }
-    .text-content .name{
-        font-size: 2.4rem;
+    .top_foot img{
+        padding: 10px;
+        width: 3.2rem;
     }
-    .retangulo{
-        width: 22vw;
-        height: 2.8rem;
+    .trace{
+        height: 2.1rem;
     }
-    .htmll, .csss, .jss{
-        width: 2.9vw;
-        margin-right: 20px;
+    .btntop img{
+        width: 35px;
+    }.curr{
+        display: inline-block;
+        top: 0.8rem;
+        position: relative;
+        right: 50%;
+        left: 44%;
+        width: 5rem;
     }
-    .left-about h1{
-        font-size: 2.4rem;
+    .curr img{
+        position: relative;
+        width: 2.5rem;
+        margin: 0 auto;
+    }
+    .curriculo{
+        right: 2px;
+    }
+    .flame{
+    display: none;
+    z-index: 2000;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 5.7px;
+    }
+    .flame img{
+    width: 1.5rem;
     }
     .curriculo-button{
-        position: absolute;
-        margin-left: 1.5rem;
-        bottom: 0;
-        width: 6.5rem;
-        height: 2.3rem;
-
+        top: 1rem;
     }
-}*/
+}
