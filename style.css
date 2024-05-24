@@ -8,7 +8,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+}
+.parte1, .parte2, .parte3, .parte4 {
+    margin-bottom: -1px;
+}
 .menu {
     text-shadow: 3px 3px 0 #000508;
     margin-top: 2.5rem;
@@ -625,7 +630,7 @@
 }
 
 /*BOTÃO SUBIR*/
-.btntop{/*container do foguete*/
+.btntop{
     position: fixed;
     bottom: 5rem;
     right: 4rem;
@@ -708,158 +713,80 @@ html{
 }
 
 
+/*        medias query        */
 
-@media screen and (max-width: 900px){
-    .container-menu{
-        display: none;
-    }
-    .btn-container{
-        display: flex;
-    }
-    .menu-mobile.abrir{
-        visibility: visible;
-        height: calc(100vh);
-    }
-
-    .experquad{
-        z-index: 0;
-    }
-    .container{
-        position: absolute;
-    }
-    .menu{
-        position: absolute;
-    }
-    .btn-menu{
-        position: absolute;
-    }
-   .container{
-    z-index: 2000;
-   }
-
-}
-
-
-/*  2ª Media  */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    body {
-        .nav-menu{
-            display: none;
-        }
-    }
-    .container_center > div:first-of-type h1 {
-        font-size: 13vw
-    }
-    .container_center div:nth-of-type(2) h5 {
-    font-size: 3vw;
-    text-align: center;
-    }
-    .parte2{
-        height: 82rem;
-    }
-    .experquad {
-        width: 65vw;
-        height: 22rem;
-    }
-    .mon{
-        font-size: 1.7rem;
-    }
-    .bloc-color2{/*barra azul*/
-        width: 13.7rem;
-        top: 0.3rem;
-    }
-    .mon1{width: 17rem;
-        font-size: 2rem;
-    }
-    .bloc-color{
-        width: 10.9rem;
-    }
-    .bloc-color3{
-        width: 13.3rem;
-    }
-    .text1{
-        font-size: 1rem;
-        top: -8rem;
-        padding: 2px 50px;
-    }
-    .container3{
-        top: 12rem;
-    }
-}
- 
-
-/* medias section4 */
-
-@media only screen and (max-width: 1600px) {
-    .rigth-about{
+@media only screen and (min-width: 1241px) and (max-width: 1600px) {
+    .rigth-about {
         width: 80%;
         margin-right: 60px;
     }
-    .text-content .description{
-        margin: 3.5rem 1.2rem 0 1.2rem;
+    .text-content .description {
+        margin: 2.8rem 1.2rem 0 1.2rem;
         font-size: 1.05rem;
-        line-height: 1.8;
+        line-height: 1.6;
         letter-spacing: 1.2px;
     }
-    .left-about h1{
+    .left-about h1 {
         font-size: 4vw;
     }
-    .retangulo{
+    .retangulo {
         width: 20vw;
         height: 6.8vh;
     }
-    .htmll, .csss, .jss{
+    .htmll, .csss, .jss {
         width: 2.6vw;
         margin-top: 3px;
     }
 }
-@media only screen and (max-width: 1240px) {
-    .text-content .description{
+
+@media only screen and (min-width: 1185px) and (max-width: 1240px) {
+    .text-content .description {
         margin: 5.5rem 1.2rem 0 1.2rem;
         font-size: 0.9rem;
         line-height: 1.8;
         letter-spacing: 1.2px;
     }
-    .left-about h1{
+    .left-about h1 {
         font-size: 4vw;
     }
-    .retangulo{
+    .retangulo {
         width: 19vw;
         height: 3.5rem;
     }
-    .htmll, .csss, .jss{
+    .htmll, .csss, .jss {
         width: 2.6vw;
         margin-right: 18px;
         margin-top: 3px;
     }
-    .rigth-about{
+    .rigth-about {
         width: 90%;
         margin-right: 60px;
     }
-    .text-content .name{
+    .text-content .name {
         font-size: 3rem;
     }
-    .text-content .role{
+    .text-content .role {
         font-size: 0.9rem;
     }
 }
-@media only screen and (max-width: 1184px) {
-    .retangulo{
+
+@media only screen and (min-width: 926px) and (max-width: 1184px) {
+    .retangulo {
         width: 17vw;
         height: 2.7rem;
     }
-    .htmll, .csss, .jss{
+    .htmll, .csss, .jss {
         width: 2.2vw;
         margin-right: 18px;
         margin-top: 3px;
     }
-    .text-content .description{
+    .text-content .description {
         margin: 5rem 1.2rem 0 1.2rem;
         font-size: 0.8rem;
         line-height: 1.8;
         letter-spacing: 1.2px;
     }
-    .text-content .name{
+    .text-content .name {
         text-shadow: 2px 0px 0 #000508;
         font-size: 2.8rem;
         margin-bottom: 0.4rem;
@@ -867,138 +794,220 @@ html{
         font-weight: 200;
         text-align: center;
     }
-    .text-content .role{
+    .text-content .role {
         font-size: 0.8rem;
     }
 }
-@media only screen and (max-width: 925px) {
-    .text-content .description{
+
+@media only screen and (min-width: 901px) and (max-width: 925px) {
+    .text-content .description {
         margin: 5.5rem 1rem 0 1rem;
         font-size: 0.8rem;
         line-height: 1.8;
         letter-spacing: 1.2px;
     }
-    .rigth-about{
+    .rigth-about {
         display: flex;
         flex-direction: row;
         width: calc(85% - 15px);
         margin-right: 15px;
     }
-    .htmll, .csss, .jss{
+    .htmll, .csss, .jss {
         width: 2.7vw;
         margin-right: 18px;
         margin-top: 3px;
     }
-    .photo-container{
+    .photo-container {
         width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .profile-photo{
+    .profile-photo {
         width: 100%;
         height: auto;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    .text-content{
+    .text-content {
         padding: 4px;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .container-menu {
+        display: none;
+    }
+    .btn-container {
+        display: flex;
+    }
+    .menu-mobile.abrir {
+        visibility: visible;
+        height: calc(100vh);
+    }
+    .experquad {
+        z-index: 0;
+    }
+    .container {
+        position: absolute;
+    }
+    .menu {
+        position: absolute;
+    }
+    .btn-menu {
+        position: absolute;
+    }
+    .container {
+        z-index: 2000;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        .nav-menu {
+            display: none;
+        }
+    }
+    .container_center > div:first-of-type h1 {
+        font-size: 13vw;
+    }
+    .container_center div:nth-of-type(2) h5 {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .parte2 {
+        height: 82rem;
+    }
+    .experquad {
+        width: 65vw;
+        height: 22rem;
+    }
+    .mon {
+        font-size: 1.7rem;
+    }
+    .bloc-color2 {
+        width: 13.7rem;
+        top: 0.3rem;
+    }
+    .mon1 {
+        width: 17rem;
+        font-size: 2rem;
+    }
+    .bloc-color {
+        width: 10.9rem;
+    }
+    .bloc-color3 {
+        width: 13.3rem;
+    }
+    .text1 {
+        font-size: 1rem;
+        top: -8rem;
+        padding: 2px 50px;
+    }
+    .container3 {
+        top: 12rem;
+    }
+}
 @media only screen and (max-width: 899px) {
-    .text-content .description{
-        margin: 7.4rem 1rem 0 1rem;
+    .text-content .description {
+        margin: 6rem 0.5rem 0 0.5rem;
         font-size: 0.88rem;
-        line-height: 1.8;
+        line-height: 1.6;
         letter-spacing: 1.2px;
     }
-    .photo-container{
+    .photo-container {
         width: 50%;
     }
-    .profile-photo{
+    .profile-photo {
         top: 1.5rem;
         position: relative;
         width: 100%;
         height: auto;
         border-radius: 10px;
     }
-    .rigth-about{
+    .rigth-about {
         display: flex;
         flex-direction: row;
         height: 80%;
         width: 100%;
     }
-    .text-content .name{
+    .text-content .name {
         font-size: 2.5rem;
     }
-    .left-about h1{
+    .left-about h1 {
         margin-top: 0rem;
     }
-    .retangulo{
+    .retangulo {
         width: 22vw;
         height: 2.8rem;
     }
-    .htmll, .csss, .jss{
+    .htmll, .csss, .jss {
         width: 2.9vw;
         margin-right: 20px;
     }
-    .left-about h1{
+    .left-about h1 {
         font-size: 2.4rem;
     }
-    .curriculo-button{
+    .curriculo-button {
         position: absolute;
         margin-left: 1.5rem;
         bottom: 0;
         width: 6.5rem;
         height: 2.3rem;
-
+        text-decoration: none;
     }
 }
-@media only screen and (max-width: 800px) {
-    .text-content .description{
-        margin: 8.5rem 1rem 0 1rem;
-        font-size: 0.82rem;
-        line-height: 1.8;
+
+@media only screen and (min-width: 800px) and (max-width: 834px) {
+    .text-content .description {
+        margin: 7.9rem 0.5rem 0 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1.4;
         letter-spacing: 1.2px;
     }
-
-    .profile-photo{
-        top: -1rem;
+    .text-content .name{
+        margin-top: 3rem;
+        font-size: 2rem;
     }
+    .photo-container {
+        width: 60%;
+    }
+
+
 }
 
-@media only screen and (max-width: 768px) {
-    .text-content .description{
-        margin: 3rem 1rem 0 1rem;
+@media only screen and (min-width: 601px) and (max-width: 799px) {
+    .text-content .description {
+        margin: 25rem 1rem 0 1rem;
         font-size: 0.83rem;
         line-height: 1.6;
         letter-spacing: 1.2px;
     }
-    .left-about h1{
+    .left-about h1 {
         margin-top: 0rem;
         font-size: 2.5rem;
     }
-    .rigth-about{
+    .rigth-about {
         height: 80%;
         width: 100%;
     }
-    .curriculo-button{
+    .curriculo-button {
         width: 6.2rem;
         height: 2.2rem;
+        text-decoration: none;
     }
-    .text-content .name{
+    .text-content .name {
         font-size: 2rem;
     }
 }
 
-/*  1ª Media  */
 @media only screen and (max-width: 600px) {
     .container_center > div:first-of-type h1 {
-        font-size: 13vw
+        font-size: 13vw;
     }
     .container_center div:nth-of-type(2) h5 {
-    font-size: 3.4vw;
-    text-align: center;
+        font-size: 3.4vw;
+        text-align: center;
     }
     .btn-container {
         right: 3rem;
@@ -1006,63 +1015,65 @@ html{
         height: 34px;
         border: none;
         z-index: 1001;
-      }
-    .parte2{
+    }
+    .parte2 {
         height: 81rem;
     }
-    .container2 h1{
+    .container2 h1 {
         font-size: 16vw;
     }
     .experquad {
         width: 73vw;
         height: 18rem;
     }
-    .mon{
+    .mon {
         left: 5.7rem;
         font-size: 1.5rem;
     }
-    .bloc-color{right: -5.8rem;
+    .bloc-color {
+        right: -5.8rem;
         width: 9.5rem;
     }
-    .bloc-color2{
+    .bloc-color2 {
         right: -5.1rem;
         width: 10.3rem;
         top: 0.3rem;
     }
-    .h3png{
+    .h3png {
         top: -10px;
     }
-    .mon1{
+    .mon1 {
         left: 5.2rem;
         font-size: 1.5rem;
     }
-    .bloc-color3{
+    .bloc-color3 {
         right: -5.2rem;
         width: 10rem;
         top: 0.5rem;
     }
-    .text1{
+    .text1 {
         font-size: 0.9rem;
         top: -9.5rem;
         letter-spacing: 0.1rem;
     }
-    .codigos-fundo{
+    .codigos-fundo {
         z-index: 1;
         top: 2.5rem;
     }
-    .codigos-fundo img{
+    .codigos-fundo img {
         width: 100%;
     }
-    .parte3{
+    .parte3 {
         position: relative;
-        height: 96rem;
+        height: auto;
+        padding-bottom: 12rem;
         width: 100%;
     }
-    .container3{
+    .container3 {
         width: 100%;
         top: 0rem;
     }
-    .experquad2{
+    .experquad2 {
         width: 77vw;
         height: 25rem;
     }
@@ -1071,27 +1082,26 @@ html{
         background-position: center;
         background-size: cover;
     }
-    /* MEDIA Seção4*/
     .parte4 {
-        height: auto; /* Alteração para altura automática */
-        padding-bottom: 100%; /* Adiciona algum espaço extra na parte inferior */
+        height: auto;
+        padding-bottom: 100%;
     }
-    .container-about{
+    .container-about {
         display: inline-block;
     }
-    .left-about{
+    .left-about {
         width: 100%;
         height: 9rem;
         display: flex;
         justify-content: center;
     }
-    .left-about h1{
+    .left-about h1 {
         font-size: 16vw;
     }
-    .retangulo{
+    .retangulo {
         display: none;
     }
-    .rigth-about{
+    .rigth-about {
         width: 100%;
         margin-right: "";
         display: inline-block;
@@ -1101,52 +1111,54 @@ html{
         display: flex;
         height: auto;
     }
-    .text-content .name{
+    .text-content .name {
         position: relative;
     }
-    .text-content{
-        width: 100%;height: auto;
+    .text-content {
+        width: 100%;
+        height: auto;
         padding: 5px;
         position: relative;
         top: 0rem;
     }
-    .text-content .description{
+    .text-content .description {
         margin: 22rem 0.3rem 0 0.3rem;
         font-size: 1rem;
         line-height: 1.4;
         letter-spacing: 1.2px;
     }
-    .curriculo-button{
+    .curriculo-button {
         position: relative;
         margin: 0 auto;
         bottom: -3rem;
         text-decoration: none;
     }
-    .photo-container{
+    .photo-container {
         top: 17rem;
         position: absolute;
         width: 50%;
     }
-    .profile-photo{
+    .profile-photo {
         width: 100%;
         height: auto;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    .btntop{
+    .btntop {
         right: 0.4rem;
         bottom: 5.2rem;
     }
-    .top_foot img{
+    .top_foot img {
         padding: 10px;
         width: 3.2rem;
     }
-    .trace{
+    .trace {
         height: 2.1rem;
     }
-    .btntop img{
+    .btntop img {
         width: 35px;
-    }.curr{
+    }
+    .curr {
         display: inline-block;
         top: 0.8rem;
         position: relative;
@@ -1154,25 +1166,53 @@ html{
         left: 44%;
         width: 5rem;
     }
-    .curr img{
+    .curr img {
         position: relative;
         width: 2.5rem;
         margin: 0 auto;
     }
-    .curriculo{
+    .curriculo {
         right: 2px;
     }
-    .flame{
-    display: none;
-    z-index: 2000;
-    position: absolute;
-    bottom: -2.5rem;
-    left: 5.7px;
+    .flame {
+        display: none;
+        z-index: 2000;
+        position: absolute;
+        bottom: -2.5rem;
+        left: 5.7px;
     }
-    .flame img{
-    width: 1.5rem;
+    .flame img {
+        width: 1.5rem;
     }
-    .curriculo-button{
+    .curriculo-button {
         top: 1rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
