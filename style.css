@@ -428,7 +428,8 @@ a{
 /*  3ª PARTE  */
 
 .parte3 {
-    height: 100vh;
+    padding-bottom: 8rem;
+    height: auto;
     width: 100%;
     background-color: #1a191d;
 }
@@ -715,6 +716,7 @@ html{
 
 /*        medias query        */
 
+
 @media only screen and (min-width: 1241px) and (max-width: 1600px) {
     .rigth-about {
         width: 80%;
@@ -738,20 +740,25 @@ html{
         margin-top: 3px;
     }
 }
-
-@media only screen and (min-width: 1185px) and (max-width: 1240px) {
+@media only screen and (min-width: 1114px) and (max-width: 1240px) {
+    
+}
+@media only screen and (min-width: 901px) and (max-width: 1113px) {
+ 
+}
+@media only screen and (min-width: 884px) and (max-width: 900px) {
     .text-content .description {
-        margin: 5.5rem 1.2rem 0 1.2rem;
+        margin: 6.4rem 1.2rem 0 1.2rem;
         font-size: 0.9rem;
-        line-height: 1.8;
+        line-height: 1.6;
         letter-spacing: 1.2px;
     }
     .left-about h1 {
-        font-size: 4vw;
+        font-size: 5.4vw;
     }
     .retangulo {
         width: 19vw;
-        height: 3.5rem;
+        height: 3rem;
     }
     .htmll, .csss, .jss {
         width: 2.6vw;
@@ -760,152 +767,189 @@ html{
     }
     .rigth-about {
         width: 90%;
-        margin-right: 60px;
+        margin-right: 30px;
     }
     .text-content .name {
         font-size: 3rem;
+        margin-top: 2rem;
     }
     .text-content .role {
         font-size: 0.9rem;
     }
+    .photo-container {
+        width: 42%;
+    }
 }
-
-@media only screen and (min-width: 926px) and (max-width: 1184px) {
+@media only screen and (min-width: 834px) and (max-width: 883px) {
+    .text-content .description {
+        margin: 7.8rem 0.5rem 0 0.5rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        letter-spacing: 1.2px;
+    }
+    .left-about h1 {
+        font-size: 5.4vw;
+    }
     .retangulo {
-        width: 17vw;
+        width: 19vw;
+        height: 3rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.6vw;
+        margin-right: 18px;
+        margin-top: 3px;
+    }
+    .rigth-about {
+        width: 90%;
+        margin-right: 30px;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .text-content .role {
+        font-size: 0.9rem;
+    }
+    .photo-container {
+        width: 42%;
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 833px) {
+    .text-content .description {
+        margin: 7.8rem 0.5rem 0 0.5rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        letter-spacing: 1.2px;
+    }
+    .left-about h1 {
+        font-size: 5.4vw;
+    }
+    .retangulo {
+        width: 19vw;
         height: 2.7rem;
     }
     .htmll, .csss, .jss {
-        width: 2.2vw;
+        width: 2.6vw;
         margin-right: 18px;
         margin-top: 3px;
-    }
-    .text-content .description {
-        margin: 5rem 1.2rem 0 1.2rem;
-        font-size: 0.8rem;
-        line-height: 1.8;
-        letter-spacing: 1.2px;
-    }
-    .text-content .name {
-        text-shadow: 2px 0px 0 #000508;
-        font-size: 2.8rem;
-        margin-bottom: 0.4rem;
-        font-family: "italiana", sans-serif;
-        font-weight: 200;
-        text-align: center;
-    }
-    .text-content .role {
-        font-size: 0.8rem;
-    }
-}
-
-@media only screen and (min-width: 901px) and (max-width: 925px) {
-    .text-content .description {
-        margin: 5.5rem 1rem 0 1rem;
-        font-size: 0.8rem;
-        line-height: 1.8;
-        letter-spacing: 1.2px;
     }
     .rigth-about {
-        display: flex;
-        flex-direction: row;
-        width: calc(85% - 15px);
-        margin-right: 15px;
+        width: 90%;
+        margin-right: 30px;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .text-content .role {
+        font-size: 0.9rem;
+    }
+    .photo-container {
+        width: 42%;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 819px) {
+    .parte4{
+        height: 95vh;
+    }
+    .text-content .description {
+        margin: 7.6rem 0.2rem 0 0.2rem;
+        font-size: 0.91rem;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+    }
+    .left-about h1 {
+        font-size: 5.4vw;
+    }
+    .retangulo {
+        width: 19vw;
+        height: 2.7rem;
     }
     .htmll, .csss, .jss {
-        width: 2.7vw;
+        width: 2.6vw;
         margin-right: 18px;
         margin-top: 3px;
     }
+    .rigth-about {
+        width: 90%;
+        height: 80%;
+        margin-right: 30px;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+    .text-content .role {
+        font-size: 0.9rem;
+    }
     .photo-container {
-        width: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 45%;
     }
-    .profile-photo {
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+    .parte4{
+        height: 95vh;
+    }
+    .text-content .description {
+        margin: 3.5rem 0.2rem 0 0.2rem;
+        font-size: 0.91rem;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+    }
+    .left-about h1 {
+        font-size: 5.4vw;
+    }
+    .retangulo {
+        width: 19vw;
+        height: 2.7rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.6vw;
+        margin-right: 18px;
+        margin-top: 3px;
+    }
+    .rigth-about {
+        width: 94%;
+        height: 80%;
+        margin-right: 15px;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    .text-content .role {
+        font-size: 0.9rem;
+    }
+    .photo-container {
+        margin-top: 4.5rem;
+        width: 45%;
+    }
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 799px) {
+    .text-content .description {
+        margin: 25rem 1rem 0 1rem;
+        font-size: 0.83rem;
+        line-height: 1.6;
+        letter-spacing: 1.2px;
+    }
+    .left-about h1 {
+        margin-top: 0rem;
+        font-size: 2.5rem;
+    }
+    .rigth-about {
+        height: 80%;
         width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    .text-content {
-        padding: 4px;
+    .curriculo-button {
+        width: 6.2rem;
+        height: 2.2rem;
+        text-decoration: none;
     }
-}
-
-@media only screen and (max-width: 900px) {
-    .container-menu {
-        display: none;
-    }
-    .btn-container {
-        display: flex;
-    }
-    .menu-mobile.abrir {
-        visibility: visible;
-        height: calc(100vh);
-    }
-    .experquad {
-        z-index: 0;
-    }
-    .container {
-        position: absolute;
-    }
-    .menu {
-        position: absolute;
-    }
-    .btn-menu {
-        position: absolute;
-    }
-    .container {
-        z-index: 2000;
-    }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    body {
-        .nav-menu {
-            display: none;
-        }
-    }
-    .container_center > div:first-of-type h1 {
-        font-size: 13vw;
-    }
-    .container_center div:nth-of-type(2) h5 {
-        font-size: 3vw;
-        text-align: center;
-    }
-    .parte2 {
-        height: 82rem;
-    }
-    .experquad {
-        width: 65vw;
-        height: 22rem;
-    }
-    .mon {
-        font-size: 1.7rem;
-    }
-    .bloc-color2 {
-        width: 13.7rem;
-        top: 0.3rem;
-    }
-    .mon1 {
-        width: 17rem;
+    .text-content .name {
         font-size: 2rem;
-    }
-    .bloc-color {
-        width: 10.9rem;
-    }
-    .bloc-color3 {
-        width: 13.3rem;
-    }
-    .text1 {
-        font-size: 1rem;
-        top: -8rem;
-        padding: 2px 50px;
-    }
-    .container3 {
-        top: 12rem;
     }
 }
 @media only screen and (max-width: 899px) {
@@ -957,50 +1001,33 @@ html{
         text-decoration: none;
     }
 }
-
-@media only screen and (min-width: 800px) and (max-width: 834px) {
-    .text-content .description {
-        margin: 7.9rem 0.5rem 0 0.5rem;
-        font-size: 0.8rem;
-        line-height: 1.4;
-        letter-spacing: 1.2px;
+@media only screen and (max-width: 900px) {
+    .container-menu {
+        display: none;
     }
-    .text-content .name{
-        margin-top: 3rem;
-        font-size: 2rem;
+    .btn-container {
+        display: flex;
     }
-    .photo-container {
-        width: 60%;
+    .menu-mobile.abrir {
+        visibility: visible;
+        height: calc(100vh);
     }
-
-
-}
-
-@media only screen and (min-width: 601px) and (max-width: 799px) {
-    .text-content .description {
-        margin: 25rem 1rem 0 1rem;
-        font-size: 0.83rem;
-        line-height: 1.6;
-        letter-spacing: 1.2px;
+    .experquad {
+        z-index: 0;
     }
-    .left-about h1 {
-        margin-top: 0rem;
-        font-size: 2.5rem;
+    .container {
+        position: absolute;
     }
-    .rigth-about {
-        height: 80%;
-        width: 100%;
+    .menu {
+        position: absolute;
     }
-    .curriculo-button {
-        width: 6.2rem;
-        height: 2.2rem;
-        text-decoration: none;
+    .btn-menu {
+        position: absolute;
     }
-    .text-content .name {
-        font-size: 2rem;
+    .container {
+        z-index: 2000;
     }
 }
-
 @media only screen and (max-width: 600px) {
     .container_center > div:first-of-type h1 {
         font-size: 13vw;
@@ -1053,7 +1080,7 @@ html{
     }
     .text1 {
         font-size: 0.9rem;
-        top: -9.5rem;
+        top: -10.3rem;
         letter-spacing: 0.1rem;
     }
     .codigos-fundo {
@@ -1187,19 +1214,14 @@ html{
     .curriculo-button {
         top: 1rem;
     }
+    .parte4{
+        height: 160vh;
+    }
+    .rigth-about{
+        margin: 0 auto;
+        width: 88%;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
