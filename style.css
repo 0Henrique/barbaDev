@@ -399,12 +399,12 @@ a{
     opacity: 30%;
 }
 .text1{
-    padding: 10px 26px;
+    padding: 0 26px;
     position: relative;
     top: -9rem;
     left: 2.1rem;
     color: #cecece;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "Roboto mono", sans-serif;
     font-weight: lighter;
     text-shadow: 3px 3px 0 #000508;
@@ -813,6 +813,11 @@ html{
     .photo-container {
         width: 42%;
     }
+    .text1 {
+        font-size: 1rem;
+        top: -8.5rem;
+        letter-spacing: 0.1rem;
+    }
 }
 @media only screen and (min-width: 820px) and (max-width: 833px) {
     .text-content .description {
@@ -846,6 +851,10 @@ html{
     }
     .photo-container {
         width: 42%;
+    }
+    .text1 {
+        font-size: 1.1rem;
+        top: -8.8rem;
     }
 }
 @media only screen and (min-width: 800px) and (max-width: 819px) {
@@ -1220,6 +1229,10 @@ html{
     .rigth-about{
         margin: 0 auto;
         width: 88%;
+    }
+    .text1 {
+        font-size: 0.9rem;
+        top: -9.6rem;
     }
 }
 
