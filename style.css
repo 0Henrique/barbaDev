@@ -741,11 +741,122 @@ html{
     }
 }
 @media only screen and (min-width: 1114px) and (max-width: 1240px) {
-    
+    .text-content .description {
+        margin: 3.5rem 1rem 0 1rem;
+        font-size: 0.90rem;
+        line-height: 1.6;
+        letter-spacing: 1.2px;
+    }
+    .retangulo {
+        width: 22vw;
+        height: 4rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 1090px) and (max-width: 1195px) {
+    .text-content .description {
+        margin: 2rem 1rem 0 1rem;
+        font-size: 0.90rem;
+        line-height: 1.4;
+        letter-spacing: 1.2px;
+    }
+    .retangulo {
+        width: 22vw;
+        height: 4rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+    .left-about h1 {
+        font-size: 4rem;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1089px) {
+    .text-content .description {
+        margin: 2rem 1rem 0 1rem;
+        font-size: 0.90rem;
+        line-height: 1.4;
+        letter-spacing: 1.2px;
+    }
+    .retangulo {
+        width: 22vw;
+        height: 3.1rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+    .left-about h1 {
+        font-size: 4rem;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1020px) {
+    .text-content .description {
+        margin: 2.5rem 1rem 0 1rem;
+        font-size: 0.85rem;
+        line-height: 1.3;
+        letter-spacing: 1.2px;
+    }
+    .retangulo {
+        width: 22vw;
+        height: 3.1rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+    .left-about h1 {
+        font-size: 3.9rem;
+    }
+    .text-content .name {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 765px) and (max-width: 935px) {
+    .text-content .description {
+        margin: 3rem 0.2rem 0 0.2rem;
+        font-size: 0.85rem;
+        line-height: 1.3;
+        letter-spacing: 1.2px;
+    }
+    .retangulo {
+        width: 22vw;
+        height: 3.1rem;
+    }
+    .htmll, .csss, .jss {
+        width: 2.9vw;
+        margin-right: 20px;
+    }
+    .left-about h1 {
+        font-size: 3.2rem;
+    }
+    .text-content .name {
+        font-size: 2.2rem;
+    }
+    .rigth-about{
+        width: 85vw;
+        margin-right: 2rem;
+    }
 }
 @media only screen and (min-width: 901px) and (max-width: 1113px) {
- 
+
 }
+
+@media only screen and (min-width: 599px) and (max-width: 900px) {
+    
+}
+
+
 @media only screen and (min-width: 884px) and (max-width: 900px) {
     .text-content .description {
         margin: 6.4rem 1.2rem 0 1.2rem;
@@ -1035,6 +1146,15 @@ html{
     }
     .container {
         z-index: 2000;
+    }
+    .text-content .description{
+        margin: 3rem 0 0 0;
+        font-size: 0.8rem;
+        line-height: 16px;
+    }
+    .text-content .name {
+        margin-top: -1rem;
+        font-size: 2rem;
     }
 }
 @media only screen and (max-width: 600px) {
